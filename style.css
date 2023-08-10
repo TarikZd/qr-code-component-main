@@ -15,20 +15,21 @@ body {
 }
 
 .container {
-    position: relative;
-    width: 100vh;
-    height: 100vw;
+    margin: 150px auto;
+    min-width: 8rem;
+    max-width: 15rem;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: 50%;
+    border-radius: 25px;
 }
 
 .wraper {
     background-color: hsl(212, 45%, 89%);
     width: 320px;
     height: 480px;
-    border-radius: 20px;
+    border-radius: 28px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -44,7 +45,7 @@ body {
 .img img {
     width: 280px;
     height: 280px;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .title {
@@ -81,7 +82,7 @@ body {
 
 
 .attribution {
-    margin-bottom: 100px; 
+    margin-bottom: 150px; 
     font-size: 15px; 
     text-align: center; 
 }
